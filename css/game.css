@@ -1,0 +1,18 @@
+.background    { background: rgb(52, 166, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: white;   }
+
+.actor  { position: absolute;  }
+.coin { background: rgb(224, 171, 24); }
+.player { background: rgb(64, 64, 64); }
+.floater  { background: rgb(20, 84, 25); }
+.powerup { background: rgb(238, 45, 252); }
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
